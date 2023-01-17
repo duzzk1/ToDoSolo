@@ -31,10 +31,18 @@ function showToDo() {
 
 btnAdd.addEventListener("click", addItem);
 
+inputText.addEventListener("keypress", function (e) {
+  if (e.keyCode == 13) {
+    addItem();
+    console.log("clicou");
+  }
+});
+
 function addItem() {
   let itemText = inputText.value;
   arrText.push(itemText);
   showToDo();
+  inputText.value = "";
 }
 
 function delItem(i) {

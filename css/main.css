@@ -12,6 +12,7 @@ body {
   background-image: url(../img/BackgroundItens.png);
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: 400px;
 }
 body header {
   display: flex;
