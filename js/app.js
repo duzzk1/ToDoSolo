@@ -7,10 +7,6 @@ console.log(todoList);
 console.log(inputText);
 console.log(btnAdd);
 
-// <li>
-//   teste <button>Delete</button>
-// </li>;
-
 var arrText = [];
 
 function showToDo() {
