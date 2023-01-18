@@ -58,6 +58,7 @@ main ul li {
   align-items: center;
   font-size: 20px;
   margin: 5px auto;
+  transition: 0.6s;
 }
 main ul li button {
   margin-left: 20px;
@@ -69,6 +70,9 @@ main ul li button {
   color: white;
   background-color: #da4141;
   box-shadow: 0px 0px 5px #da4141;
+}
+main ul li:hover {
+  font-size: 32px;
 }
 main ul::-webkit-scrollbar {
   background-color: #030917;
